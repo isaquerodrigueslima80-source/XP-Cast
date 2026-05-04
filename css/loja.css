@@ -1,0 +1,57 @@
+*{
+background-color: #904FB5;
+
+}
+
+body{
+    font-family:"Courier New", Courier, monospace;
+    margin: 0%;
+    background-color: aqua;
+}
+
+header{
+background-color: rgb(111, 0, 255);
+color: azure;
+text-align: center
+padding: 15px
+
+}
+
+.produtos{
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-top: 30px;
+
+}
+
+.card{
+background-color: rgb(13, 160, 197);
+padding: 15px;
+border-radius: 10px;
+border: 2px solid rgb(11, 167, 179);
+width: 200px;
+text-align: center;
+    
+}
+
+.card img{
+width: 100%;
+height: 120;
+background-color: aliceblue;
+
+}
+
+button{
+
+    background-color: rgb(175, 6, 77);
+    color: aliceblue;
+    border: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+background-color: rgb(243, 92, 5);
+
+}
